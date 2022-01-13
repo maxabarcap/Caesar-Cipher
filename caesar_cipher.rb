@@ -1,4 +1,4 @@
-def caesar_cipher(string, times)
+def caesar_cipher(string,times)
     newTimes = times%25
     newArray = []
     stringArray = string.split(//)
